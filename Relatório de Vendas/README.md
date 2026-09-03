@@ -1,1 +1,1 @@
-
+Painel interativo de inteligência de negócios (BI) desenvolvido no Power BI (.pbix) voltado para a análise de desempenho de vendas, monitoramento de métricas comerciais e acompanhamento de indicadores estratégicos.
