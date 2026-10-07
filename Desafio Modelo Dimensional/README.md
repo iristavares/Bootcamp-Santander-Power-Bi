@@ -1,12 +1,15 @@
 Projeto desenvolvido como parte do desafio de modelagem dimensional do bootcamp, com a elaboração de um modelo dimensional que converte um banco relacional de uma universidade em um Star Schema. 
 
 **Visão Geral**
+
 O modelo foi construído a partir do diagrama relacionado fornecido pelo desafio, que apresenta o diagrama relacional de uma instituição de ensino e organiza os dados da universidade em torno do professor como objeto de analise. 
 
 **Objetivo** 
+
 Construir um diagrama dimensional que permita analisar a atuação dos professores considerando perspectivas como o respectivo departamento do professor, os cursos em que ele atua, além das disciplinas e os períodos de ofertas das mesmas. 
 
 **Modelo Dimensional** 
+
 O desafio orientava o uso de *Professor* como tabela fato, além de propor uma solução para a ausência de datas referenciais no modelo original, o que resultou na tabela dimensão *Período* em que considerei a oferta de disciplinas semestrais. As outras tabelas do tipo dimensão foram retiradas do esquema original, sendo *Departamento*, *Disciplina* e *Curso*. 
 
 **Tabelas do modelo** 
@@ -94,5 +97,4 @@ Essa utilização permite analisar diferentes eventos temporais relacionados ao 
 
 **Código SQL**
 
-Para estruturar o modelo utilizei o DBeaver como ferramenta de desenvolvimento e o MariaDb como gerenciador do banco de dados.
-
+Para estruturar o modelo, utilizei o **DBeaver** como ferramenta de desenvolvimento e o **MariaDB** como sistema gerenciador de banco de dados. A pasta do desafio contém os scripts SQL utilizados na criação do banco, além das imagens do modelo relacional utilizado como base e do modelo dimensional desenvolvido como produto final.
